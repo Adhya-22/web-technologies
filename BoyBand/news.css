@@ -1,0 +1,47 @@
+.iosevka-charon-mono-light {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-regular {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-medium {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-bold {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-light-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.iosevka-charon-mono-regular-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.iosevka-charon-mono-medium-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.iosevka-charon-mono-bold-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
