@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(118, 213, 180);
+}
+
+.ibm-plex-serif-semibold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.yellowStyle {
+    background-color: yellow;
+}
+
+.pinkStyle {
+    background-color: darkmagenta;
+}
+
+.borderStyle {
+    border: 20px double  rgb(80, 95, 255) ;
+    border-radius: 15px;
+    padding: 10px;
+}
