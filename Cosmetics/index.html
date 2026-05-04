@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>ARIH Beauty - Luxury in every touch</title>
+     <!--BOOTSTRAP 5-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- Font Awesome 6 -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+          rel="stylesheet">
+     <!-- AOS Animation Library -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <div id="topHeader">
+          <small style="color: white; margin-left: 10px;"><i class="fas fa-truck me-2"></i>Free Shipping on orders above
+               Rs.999/-</small>
+          <small id="topItems"><i class="fas fa-phone me-2"></i>08182-255344</small>
+     </div>
+
+     <nav class="navbar">
+          <div class="nav-container">
+
+               <div class="logo">
+                    <img src="logos/logo.png" alt="ARIH Beauty">
+               </div>
+
+               <ul class="nav-links" style="padding-left: 100px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+               </ul>
+
+               <div class="nav-icons">
+                    <i class="fas fa-heart" onclick="openWishlist()"></i>
+                    <i class="fas fa-shopping-bag" onclick="openCart()"></i>
+                    <a href="signUp.html"><i class="fas fa-user"></i></a>
+               </div>
+
+          </div>
+     </nav>
+
+
+
+
+     <section class="hero">
+          <div class="hero-content">
+               <h1>Premium Makeup Collection</h1>
+               <p>
+                    Discover our curated selection of luxury beauty products,
+                    designed to enhance your natural beauty.
+               </p>
+               <div class="hero-buttons">
+                    <a href="Shop.html" class="btn btn-primary">Shop Now →</a>
+                    <a href="About.html" class="btn btn-outline">Learn More</a>
+               </div>
+
+               <div class="hero-stats">
+                    <div>
+                         <h3>500+</h3>
+                         <p>Products</p>
+                    </div>
+                    <div>
+                         <h3>50K+</h3>
+                         <p>Happy Customers</p>
+                    </div>
+                    <div>
+                         <h3>4.8</h3>
+                         <p>Rating</p>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <section class="categories">
+          <p class="sub-title">SHOP BY CATEGORY</p>
+          <h2>Popular Categories</h2>
+          <p class="desc">Explore our most popular makeup categories</p>
+
+          <div class="category-container">
+
+               <div class="category-card">
+                    <img src="logos/lipstick.jpg" class="cat-img">
+                    <h4>Lipstick</h4>
+                    <p>50+ Products</p>
+               </div>
+
+               <div class="category-card">
+                    <img src="logos/foundation.png" class="cat-img">
+                    <h4>Foundation</h4>
+                    <p>30+ Products</p>
+               </div>
+
+               <div class="category-card">
+                    <img src="logos/maskara.webp" class="cat-img">
+                    <h4>Mascara</h4>
+                    <p>25+ Products</p>
+               </div>
+
+               <div class="category-card">
+                    <img src="logos/eyeshadow.jpg" class="cat-img">
+                    <h4>Eyeshadow</h4>
+                    <p>40+ Products</p>
+               </div>
+
+          </div>
+     </section>
+
+
+     <section class="featured">
+          <div class="featured-header">
+               <p class="section-tag">BEST SELLERS</p>
+               <h2>Featured Products</h2>
+               <p class="section-sub">Top rated products loved by our customers</p>
+          </div>
+
+          <div id="featuredProducts" class="featured-grid">
+               <!-- Products will come here dynamically -->
+          </div>
+     </section>
+
+     <div class="view-all-container">
+          <a href="shop.html" class="view-all-btn">View All Products →</a>
+     </div>
+
+
+     <section class="offer-banner">
+          <div class="offer-container">
+
+               <div class="offer-text">
+                    <p class="offer-tag">LIMITED TIME OFFER</p>
+                    <h2>Get 20% Off Your First Order</h2>
+                    <p class="offer-subtext">
+                         Sign up for our newsletter and receive exclusive offers
+                    </p>
+
+                    <div class="offer-input">
+                         <input type="email" id="emailInput" placeholder="Enter your email">
+                         <button id="subscribeBtn">Subscribe</button>
+                    </div>
+               </div>
+
+               <div class="offer-icon">
+                    <i class="fas fa-gift"></i>
+               </div>
+
+          </div>
+     </section>
+
+
+     <footer class="footer">
+          <div class="footer-container">
+
+               <!-- LEFT -->
+               <div class="footer-col">
+                    <h2 class="footer-logo">ARIH BEAUTY</h2>
+                    <p>
+                         Discover premium beauty products designed to enhance your natural glow.
+                    </p>
+
+                    <div class="social-icons">
+                         <i class="fab fa-facebook-f"></i>
+                         <i class="fab fa-instagram"></i>
+                         <i class="fab fa-twitter"></i>
+                         <i class="fab fa-pinterest"></i>
+                         <i class="fab fa-youtube"></i>
+                    </div>
+               </div>
+
+               <!-- QUICK LINKS -->
+               <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                         <li><a href="#">About Us</a></li>
+                         <li><a href="#">Contact</a></li>
+                    </ul>
+               </div>
+
+               <!-- CATEGORIES -->
+               <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                         <li><a href="#">Lipstick</a></li>
+                         <li><a href="#">Foundation</a></li>
+                         <li><a href="#">Mascara</a></li>
+                         <li><a href="#">Eyeshadow</a></li>
+                    </ul>
+               </div>
+
+               <!-- CONTACT -->
+               <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, MUMBAI</p>
+                    <p><i class="fas fa-phone"></i> 08182-255344</p>
+                    <p><i class="fas fa-envelope"></i> info@arihbeauty.com</p>
+               </div>
+
+          </div>
+
+          <hr>
+
+          <div class="footer-bottom">
+               <p>© 2026 ArihBeauty. All rights reserved.</p>
+          </div>
+     </footer>
+
+
+
+
+
+
+
+
+
+
+
+     <script src="js/home.js"></script>
+
+     <div id="toast" class="toast"></div>
+</body>
+
+</html>

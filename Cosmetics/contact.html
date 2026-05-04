@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARIH Beauty - Luxury in every touch</title>
+    <!--BOOTSTRAP 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <div id="topHeader">
+        <small style="color: white; margin-left: 10px;"><i class="fas fa-truck me-2"></i>Free Shipping on orders above
+            Rs.999/-</small>
+        <small id="topItems"><i class="fas fa-phone me-2"></i>08182-255344</small>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <div class="logo">
+                <img src="logos/logo.png" alt="ARIH Beauty">
+            </div>
+
+            <ul class="nav-links" style="padding-left: 100px;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <i class="fas fa-heart" onclick="openWishlist()"></i>
+                <i class="fas fa-shopping-bag" onclick="openCart()"></i>
+                <a href="signUp.html"><i class="fas fa-user"></i></a>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="contact-section">
+
+        <h1>Get In Touch</h1>
+        <p class="subtitle">We’d love to hear from you</p>
+
+        <div class="contact-cards">
+
+            <div class="contact-card">
+                <div class="icon">📍</div>
+                <h3>Visit Us</h3>
+                <p>123 Beauty Street<br>Begaluru, BNG 560076</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">📞</div>
+                <h3>Call Us</h3>
+                <p>08182-255344<br>Mon–Fri 9am–6pm</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">✉️</div>
+                <h3>Email Us</h3>
+                <p>info@arihbeauty.com<br>support@arihbeauty.com</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <form id="contactForm">
+        <h2 style="text-align: center;">Message Us</h2>
+        <div class="form-row">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <input type="text" placeholder="Subject" required>
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- LEFT -->
+            <div class="footer-col">
+                <h2 class="footer-logo">ARIH BEAUTY</h2>
+                <p>
+                    Discover premium beauty products designed to enhance your natural glow.
+                </p>
+
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- CATEGORIES -->
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Lipstick</a></li>
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Mascara</a></li>
+                    <li><a href="#">Eyeshadow</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, MUMBAI</p>
+                <p><i class="fas fa-phone"></i> 08182-255344</p>
+                <p><i class="fas fa-envelope"></i> info@arihbeauty.com</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© 2026 ArihBeauty. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Toast container -->
+    <div id="toastBox"></div>
+
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
